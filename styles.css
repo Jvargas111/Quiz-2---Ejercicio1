@@ -3,7 +3,30 @@ body {
     background-color: rgb(204, 187, 187);
     color: white;
     overflow: hidden;
-    
+    padding: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBCDEF {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerBCDE {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.containerCDE {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
 }
 
 .containerA {
@@ -21,7 +44,6 @@ body {
 
 
 .containerB {
-    width: 80%;
     height: 200px;
     background-color: rgb(121, 117, 116);
     border-radius: 1em;
@@ -34,17 +56,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.containerBF {
-    display: flex;
-}
-
-.containerCDE {
-    display: flex;
-    margin-top: 10px
-}
 
 .containerC {
-    width: 24%;
+    width: 33%;
     height: 200px;
     background-color: rgb(121, 117, 116);
     border-radius: 1em;
@@ -57,7 +71,7 @@ body {
 }
 
 .containerD {
-    width: 24%;
+    width: 33%;
     height: 200px;
     background-color: rgb(121, 117, 116);
     border-radius: 1em;
@@ -71,7 +85,7 @@ body {
 }
 
 .containerE {
-    width: 24%;
+    width: 33%;
     height: 200px;
     background-color: rgb(121, 117, 116);
     border-radius: 1em;
@@ -85,8 +99,7 @@ body {
 }
 
 .containerF {
-    width: 24%;
-    height: 200px;
+    width: 15%;
     background-color: rgb(121, 117, 116);
     border-radius: 1em;
     border: 2px solid black ;
